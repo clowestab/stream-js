@@ -48,7 +48,7 @@ import { OpenSeaStreamClient } from '@opensea/stream-js';
 import { WebSocket } from 'ws';
 
 const client = new OpenSeaStreamClient({
-  token: 'openseaApiKey'
+  token: 'openseaApiKey',
   connectOptions: {
     transport: WebSocket
   }
